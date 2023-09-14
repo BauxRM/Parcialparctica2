@@ -43,19 +43,19 @@ while True:
     if opcion == "1":
         resultado = suma(num1, num2)
         print(f"Resultado: {resultado}")
-        input("presione Enter cualquier tecla para seguir")
+        input("presione Enter para seguir")
     elif opcion == "2":
         resultado = resta(num1, num2)
         print(f"Resultado: {resultado}")
-        input("presione Enter cualquier tecla para seguir")
+        input("presione Enter para seguir")
     elif opcion == "3":
         resultado = multiplicacion(num1, num2)
         print(f"Resultado: {resultado}")
-        input("presione Enter cualquier tecla para seguir")
+        input("presione Enter para seguir")
     elif opcion == "4":
         resultado = division(num1, num2)
         print(f"Resultado: {resultado}")
-        input("presione Enter cualquier tecla para seguir")
+        input("presione Enter para seguir")
     else:
         print("Opción no válida. Por favor, seleccione una opción válida (1, 2, 3, 4 o 5).")
     
